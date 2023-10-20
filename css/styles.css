@@ -5,6 +5,10 @@ body{
   font-family: "Roboto", "Arial", sans-serif;
   letter-spacing: 0,5px;
 }
+*:focus {
+  outline: #ff7500 2px dotted;
+  outline-offset: 3px;
+}
 
 /*SITE-HEADER*/
 .site-header{
@@ -196,6 +200,6 @@ color: #252420;
 .site-footer-links a:hover{
   color: #ff7500;
 }
-..site-footer-links a:focus{
+..site-footer-links a:active{
   opacity: 0 0.6;
 }
