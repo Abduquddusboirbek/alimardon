@@ -12,6 +12,9 @@ body{
 
 /*SITE-HEADER*/
 .site-header{
+  border-top: 5px solid #ff7500;
+  padding-top: 16px;
+  padding-bottom: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,6 +34,7 @@ opacity: 0.8;
 /*SITENAV*/
 .sitenav-list{
   display: flex;
+  padding: 0;
 list-style: none;
 }
 .sitenav-link{
@@ -52,21 +56,27 @@ color:#ff7500;
 }
 ./*MAIN-LINK*/
 .main-link{
-  font-size: 13px;
   line-height: 15px;
-  background-color: #ff7500;
-  color: #fff;
-  text-decoration: none;
-  }
+}
+
+
+
+
   .main-link{
+    display: inline-block;
     background-color:  #ff7500;
     color: #fff;
+
+    font-size: 13px;
     line-height: 1,5;
     text-decoration: none;
     width: 104px;
     height: 15px;
     border-radius: 4px;
     transition: opacity 0.4s ease;
+    padding-top: 12px;
+  padding: 12px 24px;
+  font-weight: bold;
   }
   .main-link :hover{
     opacity:0.8;
@@ -80,6 +90,8 @@ color:#ff7500;
 displey:flex
 justify-content: space-between;
 align-items: center;
+padding-top: 80px;
+padding-bottom: 80px;
 background-color:#252420;
 color: #fff;
 }
@@ -90,6 +102,7 @@ width: 390px;
 width: 80px;
 height: 3px;
 background-color: #ff7500;
+border: none;
 }
 .hero-heading{
 font-size: 40px;
@@ -99,10 +112,15 @@ font-family: "Roboto Condendsed", "Arial", "Roboto","Arial", sans-serif;
 .hero-img{
 width: 510px;
 height: 510px;
+border-radius: 8px;
 }
 
 
 /*FEATURES*/
+.features{
+  padding-top: 210px;
+  padding-bottom: 210px;
+}
 .features-heading{
 width: 440px;
 font-size: 72px;
@@ -113,8 +131,9 @@ letter-spacing: 0.5px;
 
 .features-list{
 display: flex;
-list-style: none;
 justify-content: space-between;
+padding: 0;
+list-style: none;
 }
 /*FEATURE*/
 
@@ -122,9 +141,13 @@ justify-content: space-between;
 width: 340px;
 }
 .feature-icon-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 width: 100px;
 height: 100px;
 background-color: rgba(255, 117, 0, 0.2);
+border-radius: 50%;
 }
 .feature-title{
 font-size: 24px;
@@ -137,6 +160,7 @@ font-family: "Roboto Condendsed","Roboto","Arial", sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-repeat: 12px;
 background-color: #252420;
 color: #fff;
 }
@@ -155,10 +179,13 @@ color:#ff7500;
 .promo-img{
 width: 440px;
 height: 440px;
+border-radius: 12px;
 object-fit: cover;
 }
 /*SITE-FOOTER*/
 .site-footer{
+  padding-top: 56px;
+  padding-bottom: 56px;
 background-color:#f8f8f8;
 }
 .site-footer-top{
@@ -168,10 +195,12 @@ align-items: center;
 }
 .site-footer ul {
 list-style: none;
+padding: 0;
 }
 .site-footer-socials{
 display: flex;
 align-items: center;
+padding: 0;
 }
 .site-footer-socials a{
   color: #252420;
@@ -184,6 +213,7 @@ align-items: center;
 }
 .site-footer-divider{
 height: 2px;
+border: 0;
 background-color: rgba(37, 36, 32, 0.5);
 }
 .site-footer-bottom{
