@@ -26,7 +26,12 @@ transition: opacity 0.4 ease;
 .Logo-link:hover{
 opacity: 0.8;
 }
-
+.Logo-link:active{
+opacity: 0.6;
+}
+.Logo-link img {
+display: block;
+}
 .site-header-actions {
   display: flex;
   align-items: center;
