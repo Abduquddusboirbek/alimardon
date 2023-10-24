@@ -1,5 +1,9 @@
-/* styles */
+ *{
+  box-sizing: border-box;
+ }
 .body{
+  padding: 0;
+  margin: 0;
   font-size: 16px;
   line-height: 1,5;
   font-family: "Roboto", "Arial", sans-serif;
@@ -8,6 +12,15 @@
 *:focus {
   outline: #ff7500 2px dotted;
   outline-offset: 3px;
+}
+/* CONTAINER */
+.cotainer{
+width: 100%;
+max-width: 1120px;
+padding-left: 20px;
+padding-right: 20px;
+margin-left: auto;
+margin-right: auto;
 }
 
 /*SITE-HEADER*/
@@ -79,7 +92,6 @@ color:#ff7500;
     display: inline-block;
     background-color:  #ff7500;
     color: #fff;
-
     font-size: 13px;
     line-height: 1,5;
     text-decoration: none;
